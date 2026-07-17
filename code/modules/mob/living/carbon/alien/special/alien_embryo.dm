@@ -11,6 +11,9 @@
 	var/bursting = FALSE
 	/// How long does it take to advance one stage? Growth time * 5 = how long till we make a Larva!
 	var/growth_time = 60 SECONDS
+	//TGRU ADDITION BEGIN - TGMC_XENOS
+	var/larva_path = /mob/living/carbon/alien/larva
+	//TGRU ADDITION END
 
 /obj/item/organ/body_egg/alien_embryo/Initialize(mapload)
 	. = ..()

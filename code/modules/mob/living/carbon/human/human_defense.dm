@@ -188,7 +188,8 @@
 				return FALSE
 			apply_damage(damage, BRUTE, affecting, run_armor_check(affecting, MELEE))
 		return TRUE
-
+//EDIT BEGIN: TGMC_XENOS - moved to: rutg_modular\modules\tgmc_xenos\code\human_defense.dm
+/*
 /mob/living/carbon/human/attack_alien(mob/living/carbon/alien/adult/user, list/modifiers)
 	. = ..()
 	if(!.)
@@ -240,7 +241,8 @@
 			apply_damage(damage, BRUTE, affecting, armor_block)
 		log_combat(user, src, "attacked")
 		return TRUE
-
+*/
+// EDIT END
 /mob/living/carbon/human/attack_larva(mob/living/carbon/alien/larva/worm, list/modifiers)
 	. = ..()
 	if(!.)

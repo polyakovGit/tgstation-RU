@@ -1620,6 +1620,12 @@ Remember to update _globalvars/traits.dm if you're adding/removing/renaming trai
 /// Trait applied to mobs or bodyparts which allows for them to be operated on
 #define TRAIT_READY_TO_OPERATE "ready_to_operate"
 
+/// Trait source for xeno innate abilities
+#define TRAIT_XENO_INNATE "xeno_innate"
+/// Trait source for something added BY a xeno ability
+#define TRAIT_XENO_ABILITY_GIVEN "xeno_ability_given"
+/// Determines if something can receive healing from a xeno
+#define TRAIT_XENO_HEAL_AURA "trait_xeno_heal_aura"
 /// Trait that makes mobs with it immune to mining gear AOE attacks
 #define TRAIT_MINING_AOE_IMMUNE "mining_aoe_immune"
 
